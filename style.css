@@ -1,0 +1,56 @@
+.boxes{
+	
+	margin-:0px;
+
+	height:100%;
+	width:100%;
+	border:1px solid #000;
+	
+	
+
+	
+	
+}
+
+.box1, .box2, .box3, .box4, .box5{
+	width: 50%;
+	height: 50%;
+	background-repeat: repeat;
+	
+}
+
+.box1{
+		float:left;
+		margin-right: 50%;
+		background-color: blue;
+	
+}
+
+.box2{
+
+	position:relative;	
+	margin-left: 50%;
+	background-color: green;
+	
+}
+.box3{
+		float:left;
+		margin-right: 50%;
+		background-color: red;
+	
+}
+.box4{
+
+	position:relative;	
+	margin-left: 50%;
+	background-color: yellow;
+	
+}
+
+.box5{
+	position:fixed;
+	z-index:99;
+	left:25%;
+	top:25%;
+	background-color: black;
+}
